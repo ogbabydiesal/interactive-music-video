@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.4.2/dist/p5.sound.min.js"></script>
+        <title>cool video</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <div id = "main">
+            <video src="video1.mp4" id="videoLayer1" loop="true" ></video>
+            <video src="video2.mp4" id="videoLayer2" loop="true"></video>
+            <button onclick="startStuff()">start experience</button>
+            <button onclick="randomBlend()">randomize blend-mode</button>
+            <p id="theBlendMode"></p>
+        </div>
+        
+    </body>
+    <script src="interactiveVid.js"></script>
+</html>

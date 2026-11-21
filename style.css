@@ -1,0 +1,20 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#videoLayer1 {
+    display: flex;
+    position: absolute;
+    top:5%;
+    height:80%;
+}
+
+#videoLayer2 {
+    display: flex;
+    position:absolute;
+    top:5%;
+    height: 80%;
+    mix-blend-mode: difference;
+    
+}
