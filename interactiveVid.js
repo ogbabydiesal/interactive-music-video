@@ -22,7 +22,7 @@ function randomBlend() {
 
 async function setup() {
     //load our soundfile here
-    sample = await loadSound("dedicandote.mp3");
+    sample = await loadSound("music.mp3");
     // create a new Amplitude analyzer
     analyzer = new p5.Amplitude();
 
